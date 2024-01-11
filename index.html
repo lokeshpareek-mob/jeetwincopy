@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jeetwin</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/Fontawsome/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<div class="container-fluid header">
+	<div class="row justify-content-between align-items-center">
+		<div class="w-auto">
+			<a href="#">
+				<img src="assets/img/logo.png" class="logo" width="150" />
+			</a>
+		</div>
+		<div class="w-auto d-flex align-items-center">
+			
+			<!-- <div class="row header-form m-0">
+				<div class="w-auto d-none d-lg-block">	
+					<div class="w-100 position-relative">
+						<div class="w-100 position-relative overflow-hidden">
+						<input id="username" type="text" class="form-control" placeholder="Username" />
+						<label for="username" class="form-label  position-absolute">Username</label>
+						<i class="fa-solid fa-user position-absolute"></i>
+						<div id="rememberme" class="position-absolute end-0 forgot-block top-0 h-100 d-flex align-items-center justify-content-center">
+							<img src="assets/img/remember.png" width="24" />
+					</div>
+					</div>
+						<div id="remembermeID" class="remember-block position-absolute end-0">
+							<input class="form-check-input position-absolute invisible" type="checkbox" value="" id="flexCheckDefault">
+							<label class="form-check-label position-relative" for="flexCheckDefault">Remember Me</label>
+						</div>
+					</div>
+				</div>
+				<div class="w-auto d-none d-lg-block">
+					<div class="w-100 position-relative">
+						<div class="w-100 position-relative overflow-hidden">
+						<input id="password" type="password" class="form-control" placeholder="Password" />
+						<label for="password" class="form-label  position-absolute">Password</label>
+						<i class="fa-solid fa-lock position-absolute"></i>
+						<div id="forgotpassword" class="position-absolute end-0 forgot-block top-0 h-100 d-flex align-items-center justify-content-center">
+							<img src="assets/img/forgot-password.png" width="22" />
+					</div>
+						
+					</div>
+					<div id="forgotpasswordID" class="remember-block position-absolute end-0">
+							<a href="#" class="p-0">Forgot Password ?</a>
+						</div>
+					</div>
+				</div>
+				<div class="w-auto">
+					<div class="w-100">
+						<button class="btn text-white btn-login m-0">Login</button>
+					</div>
+				</div>
+				<div class="w-auto">
+					<div class="w-100">
+						<button class="btn text-white btn-login m-0">Sign Up</button>
+					</div>
+				</div>
+				<div class="w-auto d-none d-md-block">
+					<div class="w-100">
+						<button class="btn text-white header-btn w-auto d-flex align-items-center" data-bs-toggle="offcanvas" data-bs-target="#exampleModal" aria-controls="offcanvasRight" style="padding: 0 10px;">
+							<img src="assets/img/flag.svg" width="25" /> <i class="fa-solid fa-caret-down ms-1 w-auto h-auto text-white p-0" style="font-size:16px;display: inherit;position: static;"></i></button>
+					</div>
+				</div>
+				
+				<div class="w-auto">
+					<div class="w-100">
+						<button class="btn text-white header-btn p-0 d-flex justify-content-center align-items-center" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasRight"><i class="fa-solid fa-bars text-white"></i></button>
+					</div>
+				</div>
+			</div> -->
+
+			
+				<ul class="navbar-nav header-navbar-top d-flex align-items-center justify-content-between w-100" style="flex-direction: inherit;">
+        	
+
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           <i class="fa-solid fa-wallet"></i> Add Cash
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Withdrawal </a></li>
+            <li><a class="dropdown-item" href="#">Transaction History</a></li>
+            <li><a class="dropdown-item" href="#">Deposit</a></li>
+            <li><a class="dropdown-item" href="#">My Invitation potrtate</a></li>
+            <li><a class="dropdown-item" href="#">Deposit Histoy</a></li>
+          </ul>
+        </li> -->
+          
+          <!-- <li class="nav-item">
+          	<a class="nav-link" href="#"><i class="fa-solid fa-gift"></i> Bonus</a>
+          </li> -->
+          <li class="nav-item">
+          	<a class="nav-link" href="#"><i class="fa-solid fa-bell"></i></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#"><i class="fa-solid fa-indian-rupee-sign"></i> 8022.32</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link addCashLink" style="vertical-align: middle;" href="addcash.html"><!-- <i class="fa-solid fa-wallet"></i> --><img src="assets/img/wallet.png" class="position-relative" style="top: -1px;" /> Add Cash</a>
+          </li>
+          <li class="nav-item border-0">
+            <a class="nav-link" href="info.html"><i class="fa-solid fa-user"></i> User Info
+             
+            </a>
+          </li>
+          
+          <!-- <li class="nav-item border-0 position-relative">
+          <a class="nav-link " href="#" role="button">
+            <i class="fa-solid fa-user"></i> LokeshPareek
+          </a> -->
+          <!-- <ul class="dropdown-menu-custome position-absolute end-0">
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-indian-rupee-sign"></i> 8022.32</a></li>
+            <li class="sub-dropdown-item"><a class="dropdown-item" href="#">Profile</a>
+              <ul class="sub-menu">
+                <li><a class="dropdown-item" href="#">Kyc</a></li>
+            <li><a class="dropdown-item" href="#">Bank Account</a></li>
+            <li><a class="dropdown-item" href="#">Change Password</a></li>
+            <li><a class="dropdown-item" href="#">Games History</a></li>
+              </ul>
+            </li>
+            <li class="sub-dropdown-item"><a class="dropdown-item" href="#">Add Cash</a>
+              <ul  class="sub-menu">
+            <li><a class="dropdown-item" href="#">Withdrawal </a></li>
+            <li><a class="dropdown-item" href="#">Transaction History</a></li>
+            <li><a class="dropdown-item" href="#">Deposit</a></li>
+            <li><a class="dropdown-item" href="#">My Invitation potrtate</a></li>
+            <li><a class="dropdown-item" href="#">Deposit Histoy</a></li>
+          </ul>
+            </li>
+            
+            <li class="nav-item border-0">
+            <a class="nav-link" href="#"><i class="fa-solid fa-right-from-bracket"></i> Log out</a>
+          </li>
+          </ul> -->
+        <!-- </li> -->
+          
+        </ul>
+
+        <div class="w-auto">
+            <button class="btn text-white header-btn p-0 d-flex justify-content-center align-items-center" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuLogin" aria-controls="offcanvasRight"><i class="fa-solid fa-bars text-white"></i></button>
+        </div>
+
+		</div>
+	</div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light w-100 header-navbar p-0 d-none d-lg-flex">
+  <div class="container-fluid second_nav">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav d-flex align-items-center flex-wrap justify-content-between w-100">
+        	<li class="nav-item">
+            <a class="nav-link active" href="#"><i class="fa-solid fa-house"></i></a>
+          </li>
+          <li class="nav-item">
+          	<a class="nav-link" href="/exchange">Exchange</a>
+          </li>
+          <li class="nav-item">
+          	<a class="nav-link" href="/sports">Sports</a>
+          </li>
+          <li class="nav-item">
+          	<a class="nav-link" href="/casino">Casino</a>
+          </li>
+          <li class="nav-item">
+          	<a class="nav-link" href="/crash">Crash</a>
+          </li>
+          <li class="nav-item">
+          	<a class="nav-link" href="/table">Table</a>
+          </li>
+          <li class="nav-item">
+          	<a class="nav-link" href="/slots">Slots</a>
+          </li>
+          <!-- <li class="nav-item">
+          	<a class="nav-link" href="/fish">Fishing</a>
+          </li> -->
+          <li class="nav-item">
+          	<a class="nav-link" href="/arcade">Arcade</a>
+          </li>
+          <!-- <li class="nav-item">
+          	<a class="nav-link" href="/cock">Cock Fight</a>
+          </li>
+          <li class="nav-item">
+          	<a class="nav-link" href="/racing">Racing</a>
+          </li> --> 
+          <li class="nav-item">
+          	<a class="nav-link" href="/promotions">Promotion</a>
+          </li> 
+          <li class="nav-item">
+          	<a class="nav-link" href="/vip">VIP</a>
+          </li>
+          <li class="nav-item">
+          	<a class="downloadbtn" href="/vip"><i class="fa-solid fa-download"></i> Download Now</a>
+          </li>
+        </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Banner -->
+
+<div id="carouselExampleControls" class="carousel slide bannerSlide" data-bs-ride="carousel">
+	<div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/banner.jpg" class="w-100 mt-0 mb-2" />
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/slide1.jpg" class="w-100 mt-0 mb-2" />
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/slide2.jpg" class="w-100 mt-0 mb-2" />
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/slide3.jpg" class="w-100 mt-0 mb-2" />
+    </div>
+  </div>
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button> -->
+</div>
+
+
+
+<!-- Banner End! -->
+
+<!-- Tabs -->
+
+<div class="container-fluid gameTabs">
+	<div class="row">
+		<div class="col-12 tabsNav position-relative" style="background: #141a1f;">
+			<ul class="nav nav-tabs w-100 border-0" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#All" type="button" role="tab" aria-controls="home" aria-selected="true"><img src="assets/img/all.png" /> All</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Roulette" type="button" role="tab" aria-controls="profile" aria-selected="false"><img src="assets/img/roulette.png" /> Others</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#BlackJack" type="button" role="tab" aria-controls="contact" aria-selected="false"><img src="assets/img/table.png" /> Table</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#TeenPatti" type="button" role="tab" aria-controls="contact" aria-selected="false"><img src="assets/img/draw.png" /> Draw</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Baccarat" type="button" role="tab" aria-controls="contact" aria-selected="false"><img src="assets/img/roulette.png" /> Roulette</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Poker" type="button" role="tab" aria-controls="contact" aria-selected="false"><img src="assets/img/slot.png" /> Slot</button>
+  </li>
+  
+
+</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="tab-content col-12 mt-2 px-4" id="myTabContent">
+  <div class="tab-pane fade show active" id="All" role="tabpanel" aria-labelledby="All-tab">
+  	<div class="row">
+  		<div class="col-md-2 mb-2">
+  			<div class="w-100 game-icon position-relative">
+  				<a href="#" class="w-100">
+  				<img src="assets/img/rummy.jpg" class="w-100" />
+  			</a>
+  			<a href="#" class="d-md-none playnow-mb position-absolute bottom-0">Play Now</a><!-- <div class="gamename-block w-100 d-flex justify-content-between d-none d-md-flex position-absolute bottom-0">
+  				<p class="m-0">BlackJack</p>
+  				<p class="m-0">0,1 - 1500 USD</p>
+  			</div> -->
+  			
+  			</div>
+  		</div>
+  		<div class="col-md-2 mb-2">
+  			<div class="w-100 game-icon position-relative">
+  				<a href="#" class="w-100">
+  				<img src="assets/img/poker.jpg" class="w-100" />
+  			</a>
+  			<a href="#" class="d-md-none playnow-mb position-absolute bottom-0">Play Now</a><!-- <div class="gamename-block w-100 d-flex justify-content-between d-none d-md-flex position-absolute bottom-0">
+  				<p class="m-0">BlackJack</p>
+  				<p class="m-0">0,1 - 1500 USD</p>
+  			</div> -->
+  			</div>
+  		</div>
+  		<div class="col-md-2 mb-2">
+  			<div class="w-100 game-icon position-relative">
+  				<a href="#" class="w-100">
+  				<img src="assets/img/ludo.png" class="w-100" />
+  			</a>
+  			<a href="#" class="d-md-none playnow-mb position-absolute bottom-0">Play Now</a>
+  			<!-- <div class="gamename-block w-100 d-flex justify-content-between d-none d-md-flex position-absolute bottom-0">
+  				<p class="m-0">BlackJack</p>
+  				<p class="m-0">0,1 - 1500 USD</p>
+  			</div> -->
+  			</div>
+  		</div>
+  		<div class="col-md-2 mb-2">
+  			<div class="w-100 game-icon position-relative">
+  				<a href="#" class="w-100">
+  				<img src="assets/img/baccaratt.jpg" class="w-100" />
+  			</a>
+  			<a href="#" class="d-md-none playnow-mb position-absolute bottom-0">Play Now</a>
+  			<!-- <div class="gamename-block w-100 d-flex justify-content-between d-none d-md-flex position-absolute bottom-0">
+  				<p class="m-0">BlackJack</p>
+  				<p class="m-0">0,1 - 1500 USD</p>
+  			</div> -->
+  			</div>
+  		</div>
+  		<div class="col-md-2 mb-2">
+  			<div class="w-100 game-icon position-relative">
+  				<a href="#" class="w-100">
+  				<img src="assets/img/3patti.png" class="w-100" />
+  			</a>
+  			<a href="#" class="d-md-none playnow-mb position-absolute bottom-0">Play Now</a>
+  			<!-- <div class="gamename-block w-100 d-flex justify-content-between d-none d-md-flex position-absolute bottom-0">
+  				<p class="m-0">BlackJack</p>
+  				<p class="m-0">0,1 - 1500 USD</p>
+  			</div> -->
+  			</div>
+  		</div>
+  		<div class="col-md-2 mb-2">
+  			<div class="w-100 game-icon position-relative">
+  				<a href="#" class="w-100">
+  				<img src="assets/img/3patti.png" class="w-100" />
+  			</a>
+  			<a href="#" class="d-md-none playnow-mb position-absolute bottom-0">Play Now</a>
+  			</div>
+  		</div>
+  		<div class="col-md-2 mb-2">
+  			<div class="w-100 game-icon position-relative">
+  				<a href="#" class="w-100">
+  				<img src="assets/img/3patti.png" class="w-100" />
+  			</a>
+  			<a href="#" class="d-md-none playnow-mb position-absolute bottom-0">Play Now</a>
+  			</div>
+  		</div>
+  		<div class="col-md-2 mb-2">
+  			<div class="w-100 game-icon position-relative">
+  				<a href="#" class="w-100">
+  				<img src="assets/img/3patti.png" class="w-100" />
+  			</a>
+  			<a href="#" class="d-md-none playnow-mb position-absolute bottom-0">Play Now</a>
+  			</div>
+  		</div>
+  		<div class="col-md-2 mb-2">
+  			<div class="w-100 game-icon position-relative">
+  				<a href="#" class="w-100">
+  				<img src="assets/img/3patti.png" class="w-100" />
+  			</a>
+  			<a href="#" class="d-md-none playnow-mb position-absolute bottom-0">Play Now</a>
+  			</div>
+  		</div>
+  		<div class="col-md-2 mb-2">
+  			<div class="w-100 game-icon position-relative">
+  				<a href="#" class="w-100">
+  				<img src="assets/img/3patti.png" class="w-100" />
+  			</a>
+  			<a href="#" class="d-md-none playnow-mb position-absolute bottom-0">Play Now</a>
+  			</div>
+  		</div>
+
+
+  	</div>
+  </div>
+  <div class="tab-pane fade" id="Roulette" role="tabpanel" aria-labelledby="Roulette-tab">...</div>
+  <div class="tab-pane fade" id="BlackJack" role="tabpanel" aria-labelledby="BlackJack-tab">...</div>
+</div>
+	</div>
+</div>
+
+<!-- Tabs End! -->
+
+<!-- Footer -->
+
+<div class="footer container-fluid mt-4">
+	<div class="row">
+		<div class="col-md-6 mb-3 pe-md-3">
+			<h2 class="footer-title position-relative mb-4">About JeetWin</h2>
+			<p class="mb-0 footer-des p-0 pe-md-5" style="text-align: justify;">JeetWin was established in 2017 and operated under a Curacao gaming license with more than 2 million users. JeetWin is one of Asia's most trusted and leading online casinos and sports betting platforms. JeetWin offers a wide selection of slot games, live casinos, lotteries, sportsbooks, sports exchanges, and e-sports. Members who sign up will receive 5 free spins and have a chance to win exciting prizes.</p>
+		</div>
+		<div class="col-1"></div>
+		<div class="col-md-2 mb-3">
+			<h2 class="footer-title position-relative mb-4">About </h2>
+			<ul class="footer-list p-0 mb-0">
+
+    		<li>
+					<a href="#">JW Points </a>
+				</li>
+				<li>
+					<a href="#">VIP </a>
+				</li>
+				<li>
+					<a href="#">Blog </a>
+				</li>
+				<li>
+					<a href="#">Affiliate Program </a>
+				</li>
+				<li>
+					<a href="#">Ambassador </a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-3 mb-3">
+			<h2 class="footer-title position-relative mb-4">Info </h2>
+			<ul class="footer-list p-0 mb-0">
+				<li>     
+     
+					<a href="#">Terms & Conditions </a>
+				</li>
+				<li>
+					<a href="#">FAQ </a>
+				</li>
+				<li>
+					<a href="#">Privacy Policy  </a>
+				</li>
+				<li>
+					<a href="#">Disconnection Policy  </a>
+				</li>
+				<li>
+					<a href="#">Responsible Gambling  </a>
+				</li>
+				<li>
+					<a href="#">Contact Us  </a>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="row">
+		<div class="col-md-6 mb-3">
+			<h2 class="footer-title position-relative mb-4">Payment Methods</h2>
+			<div class="d-flex footer-img flex-wrap">
+				<img class="me-2" src="assets/img/upi.svg" width="75" />
+				<img class="me-2" src="assets/img/imps.svg" width="75" />
+				<img class="me-2" src="assets/img/paytm.svg" width="75" />
+				<img class="me-2" src="assets/img/astro.svg" width="75" />
+				<img src="assets/img/tmethod.svg" width="75" />
+			</div>
+		</div>
+		<div class="col-1"></div>
+		<div class="col-md-5 mb-3">
+			<h2 class="footer-title position-relative mb-4">Licenses</h2>
+			<div class="d-flex footer-img">
+				<img class="me-2" src="assets/img/gc.svg" width="60" />
+				<img src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0My45NCA0My45NCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNkOTRhMzc7fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTM0LjcyLDMxLjdsMS44MiwxLjQ3YTE5Ljk0LDE5Ljk0LDAsMSwxLDEtMjAuNzlsLTIsMS4xN2ExNy42MiwxNy42MiwwLDEsMC0uOCwxOC4xNVptNC41Ny0xMC42M1YxNi41M0gzNi4yM3Y0LjU0SDMxLjd2My4wNmg0LjUzdjQuNTNoMy4wNlYyNC4xM2g0LjU0VjIxLjA3Wk0xNC44NCwzMC44OVYxNC4yNGgtNWwtMS4xOCwxdjIuNjJoMi4zOHYxM1ptNC44NC05LjFhNC40MSw0LjQxLDAsMCwxLTEuOTQtMy41M2MwLTIuNjQsMi42NC00Ljc3LDUuODktNC43N3M1Ljg5LDIuMTMsNS44OSw0Ljc3YTQuMzgsNC4zOCwwLDAsMS0xLjk0LDMuNTMsNS4xMSw1LjExLDAsMCwxLDIuNjgsNC4zMWMwLDMtMyw1LjM3LTYuNjMsNS4zN1MxNywyOS4wNywxNywyNi4xQTUuMTMsNS4xMywwLDAsMSwxOS42OCwyMS43OVptMS40Ni0zLjUzYTIuMjksMi4yOSwwLDAsMCwyLjQ5LDIsMi4zLDIuMywwLDAsMCwyLjUtMiwyLjMsMi4zLDAsMCwwLTIuNS0yQTIuMjksMi4yOSwwLDAsMCwyMS4xNCwxOC4yNlptLS4zMSw3Ljg0YTIuNTcsMi41NywwLDAsMCwyLjgsMi4yNywyLjU4LDIuNTgsMCwwLDAsMi44MS0yLjI3LDIuNTksMi41OSwwLDAsMC0yLjgxLTIuMjdBMi41OCwyLjU4LDAsMCwwLDIwLjgzLDI2LjFaIi8+PC9zdmc+" alt="18" width="60" />
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 mb-3">
+			<h2 class="footer-title position-relative mb-4">Follow Us</h2>
+			<ul class="p-0 social-media d-flex flex-wrap">
+				<li>
+					<a href="#">
+						<i class="fa-brands fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa-brands fa-telegram"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa-brands fa-twitter"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa-solid fa-envelope"></i></a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-1"></div>
+		<div class="col-md-5 mb-3">
+			<h2 class="footer-title position-relative mb-4">Licenses</h2>
+			<div class="d-flex">
+				<img class="me-2" src="assets/img/appstore.svg" width="130" />
+				<img class="me-0" src="assets/img/googleplay.svg" width="130" />
+				
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row mt-2">
+		<div class="col-12">
+			<p class="footer-copyright text-center">Copyright 2023 | JeetWin | All Right Reserved </p>
+		</div>
+	</div>
+</div>
+
+<!-- Footer End! -->
+
+<!-- Footer Bottom Fix -->
+<div class="footer-fixed container-fluid d-flex d-md-none justify-content-center p-2 position-fixed bottom-0" style="z-index: 9;">
+	<a class="downloadbtn" href="#"><i class="fa-solid fa-download"></i> Download Now</a>
+</div>
+<!-- Footer Bottom Fix End! -->
+
+<!-- Menu -->
+
+<div class="offcanvas offcanvas-end offcanvasMenu-block" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel"></h5>
+    <button type="button" class="btn-close text-reset text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="menu-nav p-0">
+    	<li><a href="#" class="">
+          Affiliates
+        </a>
+    </li>
+     <li>
+     	<a href="#" class="">
+          FAQ
+        </a>
+    </li>
+     <li>
+     	<a href="#" class="">
+          Privacy Policy
+        </a>
+    </li>
+     <li>
+     	<a href="#" class="">
+          Terms and Condition
+        </a>
+    </li>
+     <li>
+     	<a href="#" class="">
+          Disconnection Policy
+        </a>
+    </li>
+     <li>
+     	<a href="#" class="">
+          Responsible Gambling
+        </a>
+    </li>
+</ul>
+
+  </div>
+</div>
+
+<!-- Menu End!-->
+
+<!-- Login Menu -->
+
+<div class="offcanvas offcanvas-end offcanvasMenu-block loginMenuoffcanvas" tabindex="-1" id="offcanvasMenuLogin" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel"></h5>
+    <button type="button" class="btn-close text-reset text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body px-0">
+   <ul class="navbar-nav dropdown-menu-custome header-navbar-top d-flex align-items-center justify-content-between w-100">
+          
+
+          
+          <!-- <li class="nav-item dropdownItem border-0 position-relative">
+          <a class="nav-link dropdown-toggle" href="#" role="button">
+            <i class="fa-solid fa-user"></i> LokeshPareek
+          </a> -->
+          <!-- <ul class="dropdown-menu-custome position-absolute end-0"> -->
+            
+        <li class="dropdown-item">
+            <a class="dropdown-item" href="bonus.html"><i class="fa-solid fa-gift"></i> Bonus</a>
+          </li>
+            <!-- <li><a class="dropdown-item" href="#"><i class="fa-solid fa-indian-rupee-sign"></i> 8022.32</a></li> -->
+            <!-- <li class="sub-dropdown-item"><a class="dropdown-item" href="#">Profile</a>
+              <ul class="sub-menu"> -->
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i> Kyc</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file-invoice"></i> Bank Account</a></li>
+            <li><a class="dropdown-item" href="change-password.html"><i class="fa-solid fa-lock"></i> Change Password</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> Games History</a></li>
+              <!-- </ul> -->
+            <!-- </li> -->
+            <!-- <li class="sub-dropdown-item"><a class="dropdown-item" href="#">Add Cash</a> -->
+              <!-- <ul  class="sub-menu"> -->
+            <li><a class="dropdown-item" href="withdrawal.html"><i class="fa-solid fa-money-bill-transfer"></i> Withdrawal </a></li>
+            <li><a class="dropdown-item" href="transaction-history.html"><i class="fa-solid fa-clock-rotate-left"></i> Transaction History</a></li>
+            <li><a class="dropdown-item" href="deposit.html"><i class="fa-solid fa-money-bill-transfer"></i> Deposit</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-envelope-open-text"></i> My Invitation potrtate</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> Deposit Histoy</a></li>
+          <!-- </ul> -->
+            <!-- </li> -->
+            <li class="position-relative">
+          <a class="dropdown-item" href="#" role="button">
+            <img src="assets/img/customer-service.png" width="16" /> Customer Support
+          </a>
+        </li>
+            <li class="nav-item border-0">
+            <a class="nav-link border-0" href="#"><i class="fa-solid fa-right-from-bracket"></i> Log out</a>
+          </li>
+          <!-- </ul>
+        </li> -->
+          
+        </ul>
+
+  </div>
+</div>
+
+<!-- Login Menu End  -->
+
+<!-- Modal -->
+<div class="offcanvas offcanvas-end selectLanguage" tabindex="-1" id="exampleModal" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Select Language</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p class="mb-1">Bangladesh</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/bangladesh.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">বাংলা</span>
+        	</div>
+        </a>
+      </div>
+      <p class="mb-1">India</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/india.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3 pe-3 lang-bg-wrapper-border"><span class="">हिन्दी</span>
+        	</div>
+        </a>
+        <a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">தமிழ்</span>
+        	</div>
+        </a>
+      </div>
+
+      <p class="mb-1">India</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/india.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3 pe-3 lang-bg-wrapper-border"><span class="">हिन्दी</span>
+        	</div>
+        </a>
+        <a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">தமிழ்</span>
+        	</div>
+        </a>
+      </div>
+
+      <p class="mb-1">India</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/india.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3 pe-3 lang-bg-wrapper-border"><span class="">हिन्दी</span>
+        	</div>
+        </a>
+        <a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">தமிழ்</span>
+        	</div>
+        </a>
+      </div>
+
+      <p class="mb-1">India</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/india.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3 pe-3 lang-bg-wrapper-border"><span class="">हिन्दी</span>
+        	</div>
+        </a>
+        <a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">தமிழ்</span>
+        	</div>
+        </a>
+      </div>
+
+      <p class="mb-1">India</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/india.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3 pe-3 lang-bg-wrapper-border"><span class="">हिन्दी</span>
+        	</div>
+        </a>
+        <a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">தமிழ்</span>
+        	</div>
+        </a>
+      </div>
+
+  </div>
+</div>
+<!-- <div class="modal fade selectLanguage " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h5 class="modal-title w-100 text-center" id="exampleModalLabel">Select Language</h5>
+        <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="mb-1">Bangladesh</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/bangladesh.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">বাংলা</span>
+        	</div>
+        </a>
+      </div>
+      <p class="mb-1">India</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/india.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3 pe-3 lang-bg-wrapper-border"><span class="">हिन्दी</span>
+        	</div>
+        </a>
+        <a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">தமிழ்</span>
+        	</div>
+        </a>
+      </div>
+
+      <p class="mb-1">India</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/india.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3 pe-3 lang-bg-wrapper-border"><span class="">हिन्दी</span>
+        	</div>
+        </a>
+        <a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">தமிழ்</span>
+        	</div>
+        </a>
+      </div>
+
+      <p class="mb-1">India</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/india.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3 pe-3 lang-bg-wrapper-border"><span class="">हिन्दी</span>
+        	</div>
+        </a>
+        <a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">தமிழ்</span>
+        	</div>
+        </a>
+      </div>
+
+      <p class="mb-1">India</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/india.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3 pe-3 lang-bg-wrapper-border"><span class="">हिन्दी</span>
+        	</div>
+        </a>
+        <a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">தமிழ்</span>
+        	</div>
+        </a>
+      </div>
+
+      <p class="mb-1">India</p>
+        <div class="lang-selection-wrapper d-flex align-items-center mb-3">
+        	<img src="assets/img/india.png" alt="Country Flag" class="flag"> 
+        	<a href="/en-BD" target="_self">
+        		<div class="lang-bg-wrapper lang-bg-wrapper-border ps-3 pe-3 transform-capitalize">
+        			<span class="ps-2">English</span> 
+        		</div>
+        	</a>
+        	<a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3 pe-3 lang-bg-wrapper-border"><span class="">हिन्दी</span>
+        	</div>
+        </a>
+        <a href="/bn-BD" target="_self">
+        		<div class="lang-bg-wrapper ps-3"><span class="">தமிழ்</span>
+        	</div>
+        </a>
+      </div>
+
+      </div>
+      
+    </div>
+  </div>
+</div> -->
+
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script>
+	$('#rememberme').click(function(){
+		$('#remembermeID').toggleClass('remember-block-show');
+	});
+	$('#forgotpassword').click(function(){
+		$('#forgotpasswordID').toggleClass('remember-block-show');
+	});
+</script>
+
+<script>
+  /*let dropdownItem = document.querySelector('.sub-dropdown-item a');
+
+  dropdownItem.addEventListener('click', function(){
+    dropdownItem.classList.toggle('dropdownItem-active');
+  });*/
+
+  /*let subMenuItem = document.querySelector('.sub-dropdown-item');
+  subMenuItem.addEventListener('click', function(){
+    subMenuItem.classList.add('active-sub');
+    if (subMenuItem.nextSibling) {
+        subMenuItem.nextSibling.classList.remove('active-sub');
+    }
+  });*/
+  $('.sub-dropdown-item').click(function(){
+    $(this).addClass('active-sub').siblings().removeClass('active-sub');
+  });
+</script>
+
+
+</body>
+</html>
